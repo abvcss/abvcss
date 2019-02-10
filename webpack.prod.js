@@ -1,6 +1,6 @@
 const merge = require('webpack-merge');
 const common = require('./webpack.common.js');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const postcssPresetEnv = require('postcss-preset-env');
 
 module.exports = merge(common, {
@@ -10,15 +10,14 @@ module.exports = merge(common, {
         rules: [{
             test: /\.(sass|scss)$/,
             use: [
-                // fallback to style-loader in development                
                 MiniCssExtractPlugin.loader,
                 {
-                    loader: "css-loader", options: {
+                    loader: 'css-loader', options: {
                         importLoaders: 1
                     }
                 },
                 {
-                    loader: "postcss-loader", options: {  
+                    loader: 'postcss-loader', options: {
                         ident: 'postcss',                      
                         plugins: [
                             postcssPresetEnv({
@@ -26,15 +25,13 @@ module.exports = merge(common, {
                                 browsers: '> 5%',                                
                                 autoprefixer: { grid: true }
                             }),
-                            
                             require('rucksack-css'),
-                            
                             require('cssnano'),
-                            require("css-mqpacker")                          
+                            require("css-mqpacker")
                         ]
                     }
                 },               
-                "sass-loader"               
+                'sass-loader'
             ]
         },
         {
