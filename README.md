@@ -1,4 +1,6 @@
-[<img src="https://abvcss.github.io/abvcss-website/assets/abvCSS-logo-black.png" alt="abvCSS" align="center">](https://abvcss.github.io/abvcss-website/)
+<p align="center">
+  [<img src="https://abvcss.github.io/abvcss-website/assets/abvCSS-logo-black.png" alt="abvCSS">](https://abvcss.github.io/abvcss-website/)
+</p>
 
 # abvCSS
 
