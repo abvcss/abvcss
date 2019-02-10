@@ -1,0 +1,16 @@
+////
+/// Grid layout
+////
+
+#container
+  display: grid
+  grid-template-columns: 1fr minmax(500px, 700px)  minmax(200px, 400px) 1fr
+  grid-template-rows: 150px 50px minmax(600px, 1fr) 100px
+  grid-template-areas: "header header header header" "menu menu menu menu" " . content sidebar . " "footer footer footer footer"
+
+@media #{$media} and (max-width: $width-T) 
+  #container
+    display: grid
+    grid-template-columns: auto
+    grid-template-rows: 200px auto auto auto 200px
+    grid-template-areas: "header" "menu" "content" "sidebar" "footer"
