@@ -41,7 +41,7 @@ a:hover {
 >
 > It is good to use popular library [normalize.css] in this category.
 
-**Layout** - layout styles. This type of styles should be applied to structural blocks that are used on the page once. It is header, footer, menu, sidebar etc.
+**Layout** - layout styles. This type of styles should be applied to the structural blocks that are used on the page once. It is header, footer, menu, sidebar etc.
 
 ![layout](https://abvcss.github.io/abvcss-website/assets/layout.png)
 
