@@ -1,4 +1,4 @@
-![abvCSS](https://abvcss.github.io/abvcss-website/assets/abvCSS-logo-black.png)
+[<img src="https://abvcss.github.io/abvcss-website/assets/abvCSS-logo-black.png" alt="abvCSS" align="center">](https://abvcss.github.io/abvcss-website/)
 
 # abvCSS
 
@@ -6,7 +6,7 @@ abvCSS is a **CSS-methodology** and **framework** for creating modern, dynamic a
 
 Framework abvCSS out of the box supports CSS preprocessors like Sass and Less, postprocessor PostCSS, normalize.css and UI libraries Bootstrap, Foundation and Bulma.
 
-### ![Visit our website](https://abvcss.github.io/abvcss-website/)
+### [Visit our website](https://abvcss.github.io/abvcss-website/)
 
 ## CSS-methodology abvCSS            
 
