@@ -1,6 +1,4 @@
-<p align="center">
-  [<img src="https://abvcss.github.io/abvcss-website/assets/abvCSS-logo-black.png" alt="abvCSS">](https://abvcss.github.io/abvcss-website/)
-</p>
+<p align="center"><a href="https://abvcss.github.io/abvcss-website/" target="_blank" rel="nofollow noopener noreferrer"><img src="https://abvcss.github.io/abvcss-website/assets/abvCSS-logo-black.png" alt="abvCSS"></a></p>
 
 # abvCSS
 
