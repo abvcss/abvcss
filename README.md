@@ -255,4 +255,4 @@ npm run build:prod
  
  All sources are located in **1-base**, **2-layout**, **3-blocks**, **4-skins** directories. Module **settings** includes preprocessor variables and other settings.
 
-[normalize.css]: https://github.com/csstools/normalize.css
+[normalize.css]: https://github.com/necolas/normalize.css
