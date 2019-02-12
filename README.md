@@ -184,7 +184,7 @@ While installing abvCSS framework it is creating directories and files for abvCS
 
 Additionally, you can choose your favorite css preprocessor - **[Sass](https://sass-scss.ru/guide/)** or **[Less](http://lesscss.org)**.
 
-Also you will be able to add **[normalize.css]**.
+You will also be able to add **[normalize.css]**.
 
 Framework abvCSS supports UI libraries like **[Bootstrap](https://getbootstrap.com/)**, **[Foundation](https://foundation.zurb.com)** or **[Bulma](https://bulma.io)**.
 
