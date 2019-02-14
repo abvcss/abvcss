@@ -251,8 +251,78 @@ Production mode:
 npm run build:prod
 ```
 
- After bundling visit **dist** folder and find **main.css** file. You can attach this file to a web page.
+After bundling visit **dist** folder and find **main.css** file. You can attach this file to a web page.
  
- All sources are located in **1-base**, **2-layout**, **3-blocks**, **4-skins** directories. Module **settings** includes preprocessor variables and other settings.
+All sources are located in **1-base**, **2-layout**, **3-blocks**, **4-skins** directories. Module **settings** includes preprocessor variables and other settings.
+
+## abvCSS + React
+
+React - one of the most popular frameworks for creating dynamic user interfaces. It is fully compatible with the abvCSS framework.
+
+This bundle allows you to use the most advanced frontend technologies for today.
+
+If you use such a **cssinjs** framework as **[styled-components](https://www.styled-components.com)**, you probably will not need to write Blocks styles.
+
+To install abvCSS + React starter, follow these steps:
+
+Install **[Yeoman](https://yeoman.io)** (if you have not already done so):
+
+```
+npm install -g yo
+```
+
+Install generator abvcss+react:
+
+```
+npm install -g generator-abvcss-react
+```
+
+In empty folder launch abvcss+react installing:
+
+```
+yo abvcss-react
+```
+
+Then you should answer some questions about configuration.
+
+After this, there will be a project with the following structure:
+
+```
+project
+├── index.html
+├── LICENSE
+├── .babelrc
+├── package.json
+├── README.md
+├── webpack.common.js
+├── webpack.dev.js
+├── webpack.prod.js
+├── src
+│   └── index.jsx
+└── abvcss
+    ├── 1-base
+    ├── 2-layout
+    ├── 3-blocks
+    ├── 4-skins
+    ├── _placeholder-classes.sass
+    ├── _settings.sass
+    └── style.sass
+```
+
+You can bundle the project in two modes.
+
+Development mode:
+
+```
+npm run build:dev
+```
+
+Production mode:
+
+```
+npm run build:prod
+```
+
+After bundling visit **dist** folder and find **main.css** and **main.js** files. You can attach this files to a web page.
 
 [normalize.css]: https://github.com/necolas/normalize.css
