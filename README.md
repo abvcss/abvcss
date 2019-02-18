@@ -2,7 +2,7 @@
 
 # abvCSS
 
-abvCSS is a **CSS-methodology** and **framework** for creating modern, dynamic and supported web interfaces. Development process is speeding up due to the architecture and rules. This methodology makes it easy to re-use styles.
+abvCSS is a **CSS-methodology** and **framework** for creating modern, dynamic and supported web interfaces. Thanks to the architecture and rules the development process is accelerated. This methodology makes it easy to re-use styles.
 
 Framework abvCSS out of the box supports CSS preprocessors like Sass and Less, postprocessor PostCSS, normalize.css and UI libraries Bootstrap, Foundation and Bulma.
 
